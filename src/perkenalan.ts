@@ -4,7 +4,7 @@
 const namaSaya: string = "Zidan Alfa Permana"; // ← isi nama kamu
 const asalSekolah: string = "SMK 5 Malang"; // ← SMK 5 Malang atau SMK 6 Malang
 
-// Additional from zidan
+// tambahan dari zidan
 const apakahKota = true;
 
 const kota: string = "Malang";

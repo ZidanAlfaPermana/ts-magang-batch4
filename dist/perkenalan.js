@@ -4,7 +4,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const namaSaya = "Zidan Alfa Permana"; // ← isi nama kamu
 const asalSekolah = "SMK 5 Malang"; // ← SMK 5 Malang atau SMK 6 Malang
-// Additional from zidan
+// tambahan dari zidan
 const apakahKota = true;
 const kota = "Malang";
 const sudahBelajarJavaScript = true; // atau false
