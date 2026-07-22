@@ -6,6 +6,7 @@ const smk5 = {
     sekolah: "SMKN 5 Malang",
     fase: 2,
     github: "https://github.com/ZidanAlfaPermana",
+    status: "aktif",
 };
 const smk6 = {
     id: 3,
@@ -13,6 +14,7 @@ const smk6 = {
     sekolah: "SMKN 6 Malang",
     fase: 2,
     github: "https://github.com/ajengnielza/",
+    status: "aktif",
 };
 console.log(smk5);
 const mentor1 = {
@@ -46,6 +48,7 @@ const smk5_1 = {
     sekolah: "SMKN 5 Malang",
     fase: 2,
     github: "https://github.com/lindaangellina",
+    status: "aktif"
 };
 xiipplg3.tambahPeserta(smk5_1);
 console.log(xiipplg3.cariPeserta("Zidan Alfa Permana"));

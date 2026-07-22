@@ -1,3 +1,5 @@
+import type {PesertaStatus} from './type-alias';
+
 // SOAL 1
 // Buat interface Peserta dengan:
 // - id (number, readonly)
@@ -7,13 +9,14 @@
 // - nilaiAkhir (number, optional)
 // - github (string, optional)
 // Buat 2 objek Peserta: satu dari SMK 5, satu dari SMK 6
-interface Peserta {
+export type Peserta = {
     readonly id: number;
     nama: string;
     sekolah: string;
     fase: number;
     nilaiAkhir?: number;
     github?: string;
+    status: PesertaStatus
 }
 
 const smk5: Peserta = {
@@ -22,6 +25,7 @@ const smk5: Peserta = {
     sekolah: "SMKN 5 Malang",
     fase: 2,
     github: "https://github.com/ZidanAlfaPermana",
+    status: "aktif",
 }
 const smk6: Peserta = {
     id: 3,
@@ -29,6 +33,7 @@ const smk6: Peserta = {
     sekolah: "SMKN 6 Malang",
     fase: 2,
     github: "https://github.com/ajengnielza/",
+    status: "aktif",
 }
 
 console.log(smk5)
@@ -91,12 +96,14 @@ const xiipplg3: Kelas = {
         return this.peserta.find(peserta => peserta.nama === name);
     }
 }
+
 const smk5_1: Peserta = {
     id: 2,
     nama: "Linda Angellina",
     sekolah: "SMKN 5 Malang",
     fase: 2,
     github: "https://github.com/lindaangellina",
+    status: "aktif"
 }
 xiipplg3.tambahPeserta(smk5_1);
 console.log(xiipplg3.cariPeserta("Zidan Alfa Permana"));
