@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function renderContent(content) {
     if (content.type === "text") {
         return `type: ${content.type} | content: ${content.content}`;
@@ -89,4 +87,5 @@ console.log(pelanggan1);
 console.log(pelanggan2);
 console.log(makanan);
 console.log(fashion);
+export {};
 //# sourceMappingURL=union-intersection.js.map

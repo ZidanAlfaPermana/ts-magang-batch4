@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // SOAL 1 — Class dasar
 // Buat class Mentor dengan:
 // - Properties: nama (public), keahlian (public, array string)
@@ -93,4 +91,5 @@ const jurhar = new JurnalHarian("Zidan", "18-09-2026", "Tidak Ada");
 console.log(jurhar.deskripsi());
 const sprint = new SprintTask("Zidan", "18-09-2026", "high");
 console.log(sprint.deskripsi());
+export {};
 //# sourceMappingURL=clases-inheritance.js.map

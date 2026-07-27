@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const successPayment = {
     status: "berhasil",
     transactionId: "628542a4-f412-4c2f-86cf-63ecec04bbb5",
@@ -108,4 +106,5 @@ const dataKeuangan = {
     filter: "status: aktif",
 };
 console.log(executeCommand(dataKeuangan));
+export {};
 //# sourceMappingURL=discriminated-union.js.map

@@ -1,4 +1,4 @@
-import type {PesertaStatus} from './type-alias';
+import type {PesertaStatus} from './type-alias.ts';
 
 // SOAL 1
 // Buat interface Peserta dengan:

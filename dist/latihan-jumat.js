@@ -1,10 +1,8 @@
-"use strict";
 // SOAL 1
 // Buat variabel untuk menyimpan data nilai rapor:
 // nama (string), kelas (string), nilaiTS (number), nilaiJS (number), lulus (boolean)
 // Hitung rata-rata nilai dan tentukan apakah lulus (>= 75)
 // Tampilkan hasilnya dengan console.log
-Object.defineProperty(exports, "__esModule", { value: true });
 // array yang dinamis/bisa di ubah" sesuai keinginan
 let raport = {
     nama: "Zidan Alfa Permana",
@@ -73,4 +71,5 @@ function hitungDiskon(harga, diskon) {
     return Number(harga_akhir);
 }
 console.log("RP. " + hitungDiskon(50000, "NAWASENA20"));
+export {};
 //# sourceMappingURL=latihan-jumat.js.map

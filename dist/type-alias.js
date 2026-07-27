@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const jurnalSenin = {
     kegiatan: "Membuat Project Laravel",
     hambatan: "terdapat masalah pada Eloquent",
@@ -46,4 +44,5 @@ function filterPeserta(list, status) {
     return list.filter(peserta => peserta.status === status);
 }
 console.log(filterPeserta(AllPeserta, "aktif"));
+export {};
 //# sourceMappingURL=type-alias.js.map

@@ -3,7 +3,7 @@
 // - cariPeserta(id: number): Peserta | undefined
 // - cariPeserta(nama: string): Peserta | undefined
 // Implementasikan logic pencarian berdasarkan id ATAU nama
-import type {Peserta} from "./interfaces-dasar";
+import type {Peserta} from "./interfaces-dasar.js";
 
 const smk5: Peserta = {
     id: 1,

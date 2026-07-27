@@ -1,4 +1,3 @@
-"use strict";
 // STUDI KASUS: Sistem Manajemen Tugas (Task Manager)
 //
 // Buat sistem yang mengelola tugas dengan menggunakan:
@@ -7,7 +6,6 @@
 // - Optional & readonly properties
 // - Union types
 // - Discriminated union (untuk TaskEvent)
-Object.defineProperty(exports, "__esModule", { value: true });
 const Zidan = {
     id: 1,
     nama: "Zidan Alfa Permana",
@@ -94,4 +92,5 @@ console.log(PengelolaanTask.tasks);
 function logEvent(event) {
     console.log(JSON.stringify(event));
 }
+export {};
 //# sourceMappingURL=integrasi-minggu2.js.map

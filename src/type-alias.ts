@@ -1,4 +1,4 @@
-import type { Peserta } from "./interfaces-dasar";
+import type { Peserta } from "./interfaces-dasar.ts";
 
 // SOAL 1
 // Buat type alias untuk:

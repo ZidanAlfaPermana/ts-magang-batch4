@@ -1,6 +1,4 @@
-"use strict";
 // src/tipe-dasar.ts
-Object.defineProperty(exports, "__esModule", { value: true });
 // ─── 1. TIPE PRIMITIF ────────────────────────────────────────────
 let namaLengkap = "Zidan Alfa Permana";
 let usia = 18;
@@ -56,4 +54,5 @@ function formatID(id) {
 }
 console.log(formatID("usr-001")); // "USR-001"
 console.log(formatID(42)); // "ID-42"
+export {};
 //# sourceMappingURL=tipe-dasar.js.map

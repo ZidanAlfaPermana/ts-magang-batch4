@@ -1,4 +1,4 @@
-import type { PesertaStatus } from './type-alias';
+import type { PesertaStatus } from './type-alias.ts';
 export type Peserta = {
     readonly id: number;
     nama: string;

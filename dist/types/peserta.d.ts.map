@@ -1,0 +1,1 @@
+{"version":3,"file":"peserta.d.ts","sourceRoot":"","sources":["../../src/types/peserta.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,OAAO;IACpB,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,CAAC;IAChB,KAAK,EAAE,MAAM,CAAC;CACjB;AAED,MAAM,MAAM,aAAa,GAAG,OAAO,GAAG,OAAO,GAAG,UAAU,CAAC"}

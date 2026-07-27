@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const smk5 = {
     id: 1,
     nama: "Zidan Alfa Permana",
@@ -65,4 +63,5 @@ function buatFilterNilai(minimal) {
 }
 const filter = buatFilterNilai(80);
 console.log(AllPeserta.filter(filter));
+export {};
 //# sourceMappingURL=functions-lanjutan.js.map

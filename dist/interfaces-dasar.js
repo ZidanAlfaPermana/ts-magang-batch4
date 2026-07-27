@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const smk5 = {
     id: 1,
     nama: "Zidan Alfa Permana",
@@ -54,4 +52,5 @@ xiipplg3.tambahPeserta(smk5_1);
 console.log(xiipplg3.cariPeserta("Zidan Alfa Permana"));
 /*console.log(xiipplg3.cariPeserta("awdjiawds")); // akan keluar undefined dikarenakan tidak adanya nama tersebut di peserta*/
 console.log(xiipplg3.peserta);
+export {};
 //# sourceMappingURL=interfaces-dasar.js.map

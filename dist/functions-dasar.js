@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // SOAL 1
 // Buat fungsi hitungNilaiAkhir(tugas: number, uts: number, uas: number): number
 // Formula: (tugas * 0.3) + (uts * 0.3) + (uas * 0.4)
@@ -41,4 +39,5 @@ function formatDurasi(menit, tampilkanDetik = false) {
 }
 console.log(formatDurasi(1000));
 console.log(formatDurasi(1000, true));
+export {};
 //# sourceMappingURL=functions-dasar.js.map
